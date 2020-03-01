@@ -1,17 +1,17 @@
-# Maintainer: Renato Silva <br.renatosilva@gmail.com>
+# Maintainer: Busayo Famutimi <famutimi.busayo@gmail.com>
 
 _realname='libsignal-protocol-c'
 pkgbase="mingw-w64-${_realname}-git"
 pkgname="${MINGW_PACKAGE_PREFIX}-${_realname}-git"
-pkgver=r34.16bfd04
+pkgver=r120.71954c5
 pkgrel=1
 pkgdesc='Signal Protocol C Library (mingw-w64)'
-url='https://github.com/WhisperSystems/libsignal-protocol-c'
-license=(GPL3)
+url='https://github.com/signalapp/libsignal-protocol-c'
+license=(GPLv3)
 arch=('any')
 
 options=(!libtool strip staticlibs)
-source=('git+https://github.com/WhisperSystems/libsignal-protocol-c')
+source=('https://github.com/signalapp/libsignal-protocol-c')
 sha256sums=('SKIP')
 conflicts=(${MINGW_PACKAGE_PREFIX}-${_realname})
 provides=(${MINGW_PACKAGE_PREFIX}-${_realname})
